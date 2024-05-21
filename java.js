@@ -65,6 +65,7 @@ const wins=[[0,1,2],[0,3,6],[0,4,8]
               
                 winmsg.innerHTML=`Winner:${wEl}`;
                 windiv.classList.remove("hide");
+                
              }
 //reset game
           reset.addEventListener("click",()=>{
@@ -98,6 +99,7 @@ const wins=[[0,1,2],[0,3,6],[0,4,8]
         windiv.classList.add("hide");
         play++;
       xodet();
+      count=0;
       })
 
 const xodet=()=>{
