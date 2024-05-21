@@ -65,7 +65,7 @@ const wins=[[0,1,2],[0,3,6],[0,4,8]
               
                 winmsg.innerHTML=`Winner:${wEl}`;
                 windiv.classList.remove("hide");
-                
+                count=0;
              }
 //reset game
           reset.addEventListener("click",()=>{
